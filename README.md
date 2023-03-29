@@ -31,3 +31,12 @@ The purpose of this analysis was to create and compare multiple Machine Learning
 ## Summary: 
 
 I would recommend the Easy Ensemble AdaBoost Classifier Model due to the fact that it has the highest accuracy score. The second highest was also in the Ensemble Classifier Group, so I think that Ensemble Classifiers are useful in predicting credit risk. 
+
+## Challenges: 
+One challenge that I'd run into while compiling the code, is that the code was not running when I had initially checked the balance of target counts. 
+As shown below, I had a continual error that 'y was not defined' or a KeyError at 'loan_status', however, once I removed that variable, I was able to run it
+successfully, as shown in the following screenshot. In the previous line of code, when initializing the target, y is the dataframe that contains loan_status. 
+![image](https://user-images.githubusercontent.com/116187123/228414544-0992f717-830a-4658-91f7-9d33a6b768b2.png)
+![image](https://user-images.githubusercontent.com/116187123/228414992-e8d4094b-d964-492a-a338-8a2427ee95cf.png)
+
+
