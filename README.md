@@ -5,6 +5,10 @@ The purpose of this analysis was to create and compare multiple Machine Learning
 
 ## Results: 
 
+-The Ensemble Classifiers had the highest accuracy scores 
+-The EasyEnsemble Classifier had the maximum accuracy score at 0.93. 
+-The Undersampling Model had the minimum accuracy score at 0.54. 
+
 ### Naive Random Oversampling
 ![image](https://user-images.githubusercontent.com/116187123/228410733-86235da0-e636-49ca-97c1-7c8c892c4769.png)
 
@@ -24,5 +28,6 @@ The purpose of this analysis was to create and compare multiple Machine Learning
 ![image](https://user-images.githubusercontent.com/116187123/228411048-1867c740-2003-45e5-bc0f-922ae30cbb29.png)
 
 
-
 ## Summary: 
+
+I would recommend the Easy Ensemble AdaBoost Classifier Model due to the fact that it has the highest accuracy score. The second highest was also in the Ensemble Classifier Group, so I think that Ensemble Classifiers are useful in predicting credit risk. 
